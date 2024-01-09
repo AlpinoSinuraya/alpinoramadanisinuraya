@@ -1,0 +1,59 @@
+.table{
+    height: 200px;
+  }
+  
+  .tb {
+      margin-left: 1rem;
+      height: 630px;
+      width: 350px;
+  
+    }
+    
+    .t1 {
+      border: solid 1px;
+      text-align: center;
+    }
+    
+    th {
+      border: solid 1px;
+    }
+    
+    td {
+      border: solid 1px;
+      text-align: center;
+    }
+    
+    .content-with-background {
+      position: relative;
+    }
+    
+    .background-image {
+      background-image: url("../../assets/1.jpg"); /* Replace with your image path */
+      height: 700px;
+      background-size: cover;
+      background-position: center;
+      position: still;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.7; /* Adjust the opacity as needed */
+    }
+    
+    .tb {
+      /* Additional styles for the table */
+      background-color: rgba(238, 234, 234, 0.8); /* Background color for the table with transparency */
+      border-radius: 10px; /* Adjust the border radius as needed */
+      overflow: hidden; /* Clip the background to the table boundaries */
+    }
+    ion-title{
+      font-weight: bold;
+      font-size: 20px;
+      font-variant: initial;
+      font-family:cursive;
+      color:rgb(236, 245, 106);
+    }
+    ion-content {
+      --background: linear-gradient(to right, #6dd5ed, #2193b0);
+    }
